@@ -7,22 +7,95 @@
     <link rel="stylesheet" href="https://use.typekit.net/soy2xal.css">
     <link rel="icon" type="favicon" href="./favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Marques</title>
+    <script defer src="index.js"></script>
+    <title>Accueil</title>
 </head>
 
 <body class="bg-neutral-950">
     <header class="mx-auto max-w-7xl grid justify-items-center">
         <nav>
             <div class="grid justify-items-center py-4 pt-6">
-                <a href="index.html"><img src="./img/GabDesign_Logo.svg" width="150" alt="Logo"></a>
+                <a href="index.html"><img src="./img/Boardshop_White.svg" width="150" alt="Logo"></a>
             </div>
 
-            <div class="grid grid-cols-3 text-white justify-items-center">
+            <div class="grid grid-cols-4 text-white justify-items-center">
                 <a class="text-xl py-3 px-6 mx-2 border border-neutral-950 hover:border-white rounded" href="index.html">Accueil</a>
-                <a class="text-xl py-3 px-6 mx-2 border border-neutral-950 hover:border-white rounded" href="projets.html">Projets</a>
-                <a class="text-xl py-3 px-6 mx-2 border border-neutral-950 hover:border-white rounded" href="propos.html">À propos</a>
+                <a class="text-xl py-3 px-6 mx-2 border border-neutral-950 hover:border-white rounded" href="produits.html">Produits</a>
+                <a class="text-xl py-3 px-6 mx-2 border border-neutral-950 hover:border-white rounded" href="marques.html">Marques</a>
+                <a class="text-xl py-3 px-6 mx-2 border border-neutral-950 hover:border-white rounded" href="contact.html">Contact</a>
             </div>
         </nav>
     </header>
+    
+    <main>
+        <section class="mx-auto max-w-7xl">
+            <h2 class="text-gray-500 text-center py-12">Marques de Snowboard</h2>
+            <div class="grid grid-cols-6 flex-col place-items-center lg:gap-24">
+                <img src="./img/Brands/burton-white.png">
+                <img src="./img/Brands/jones_snowboards.svg">
+                <img src="./img/Brands/lobster.svg">
+                <img src="./img/Brands/nitro-snowboards-logo-vector.svg">
+                <img src="./img/Brands/Capita Snowboards Skull.svg">
+                <img src="./img/Brands/Salomon.svg">
+            </div>
+            <h2 class="text-gray-500 text-center py-12">Marques de Surf</h2>
+            <div class="grid grid-cols-6 flex-col gap-12 place-items-center">
+                <img src="./img/Brands/burton-white.png">
+                <img src="./img/Brands/jones_snowboards.svg">
+                <img src="./img/Brands/lobster.svg">
+                <img src="./img/Brands/nitro-snowboards-logo-vector.svg">
+                <img src="./img/Brands/Capita Snowboards Skull.svg">
+                <img src="./img/Brands/Salomon.svg">
+            </div>
+            <h2 class="text-gray-500 text-center py-12">Marques de Skate</h2>
+            <div class="grid grid-cols-6 flex-col gap-12 place-items-center">
+                <img src="./img/Brands/burton-white.png">
+                <img src="./img/Brands/jones_snowboards.svg">
+                <img src="./img/Brands/lobster.svg">
+                <img src="./img/Brands/nitro-snowboards-logo-vector.svg">
+                <img src="./img/Brands/Capita Snowboards Skull.svg">
+                <img src="./img/Brands/Salomon.svg">
+            </div>
+        </section>
+
+        <section>
+            <div id="newsletter-banner" class="my-10 z-50 flex justify-between w-full p-6 bg-gray-800">
+                <div class="flex items-center flex-shrink-0 w-full mx-auto sm:w-auto">
+                    <form class="flex flex-col items-center w-full md:flex-row">
+                        <label for="email" class="flex-shrink-0 mb-2 me-auto text-sm font-medium text-white md:mb-0 md:me-4 dark:text-gray-400 md:m-0">Abonnez-vous à notre infolettre</label>
+                        <input type="email" id="email" placeholder="Entrez votre courriel" class="bg-white border border-gray-300 text-gray-900 md:w-64 mb-2 md:mb-0 md:me-4 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                        <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">S'inscrire</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<footer class="m-4">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="index.html"><img src="./img/Boardshop_White.svg" class="h-8" alt="Boardshop Logo" /></a>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <li>
+                    <a href="./index.html" class="hover:underline me-4 md:me-6">Accueil</a>
+                </li>
+                <li>
+                    <a href="./produits.html" class="hover:underline me-4 md:me-6">Produits</a>
+                </li>
+                <li>
+                    <a href="./marques.html" class="hover:underline me-4 md:me-6">Marques</a>
+                </li>
+                <li>
+                    <a href="./contact.html" class="hover:underline">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 Gabriel Villeneuve / Intégration Web</span>
+    </div>
+</footer>
+
 </body>
 </html>
