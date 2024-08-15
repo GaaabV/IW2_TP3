@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/soy2xal.css">
     <link rel="icon" type="favicon" href="./favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="index.js"></script>
     <title>Accueil</title>
 </head>
 
@@ -25,13 +26,57 @@
             </div>
         </nav>
     </header>
-    <main class="grid ">
-        <video class="flex pt-8 bg-cover" name="Backcountry" autoplay muted loop>
-            <source src="./img/Backcountry.mov">
-          </video>
-          <video class="pt-8 float" name="Surf" autoplay muted loop>
-            <source src="./img/Surf.mp4">
-          </video>
+    <main>
+        <div id="carousel" class="my-10 relative mx-auto overflow-hidden">
+            <div class="carousel-inner flex transition-transform duration-500">
+                <div class="carousel-item w-full flex-shrink-0">
+                    <video src="./img/Snowboard.mp4" class="w-full" alt="Backcountry" autoplay muted loop>
+                </div>
+                <div class="carousel-item w-full flex-shrink-0">
+                    <video src="./img/Surf.mp4" class="w-full" alt="Surf" autoplay muted loop>
+                </div>
+                <div class="carousel-item w-full flex-shrink-0">
+                    <video src="./img/Skate.mp4" class="w-full" alt="Skate" autoplay muted loop>
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev absolute top-1/2 left-0 transform -translate-y-1/2 text-white p-2"
+                onclick="prevSlide()"></button>
+            <button
+                class="carousel-control-next absolute top-1/2 right-0 transform -translate-y-1/2 text-white p-2"
+                onclick="nextSlide()"></button>
+        </div>
     </main>
+    <footer>
+        
+
+<footer class="m-4">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="index.html"><img src="./img/Boardshop_White.svg" class="h-8" alt="Boardshop Logo" /></a>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <li>
+                    <a href="./index.html" class="hover:underline me-4 md:me-6">Accueil</a>
+                </li>
+                <li>
+                    <a href="./produits.html" class="hover:underline me-4 md:me-6">Produits</a>
+                </li>
+                <li>
+                    <a href="./marques.html" class="hover:underline me-4 md:me-6">Marques</a>
+                </li>
+                <li>
+                    <a href="./contact.html" class="hover:underline">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 Gabriel Villeneuve / Intégration Web</span>
+    </div>
+</footer>
+
+
+    </footer>
 </body>
 </html>
