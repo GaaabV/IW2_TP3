@@ -13,6 +13,8 @@ Technologies
 - JavaScript : JavaScript natif est utilisé pour la validation des formulaires.
 - Tailwind CSS : Un framework CSS utilitaire-first pour styliser le site avec un design propre et minimaliste.
 
+Composantes tailwind ajouté à l'accueil pour créer le carousel, composant pour créer le formulaire ainsi que la page produits.
+
 
 Lien vers mon repository GIT
 
