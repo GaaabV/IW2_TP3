@@ -1,8 +1,5 @@
 const form = document.getElementById('form');
-const form = document.getElementById('form');
-const form = document.getElementById('form');
-const form = document.getElementById('form');
-const form = document.getElementById('form');
+const email = document.getElementById('email');
 
 const validateForm = () => {
     let noError = true;
