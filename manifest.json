@@ -1,7 +1,7 @@
 {
-"name": "The Boardshop",
+"name": "The_Boardshop",
 "short_name": "Boardshop",
-"start_url": "index.html",
+"start_url": "https://gaaabv.github.io/IW2_TP3/",
 "display": "standalone",
 "description": "The Boardshop is an application to find the perfect board for your needs !",
 "lang": " French",
@@ -20,7 +20,7 @@
         "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
         "sizes": "192x192",
         "type": "image/png",
-        "purpose": "any"
+        "purpose": "any maskable"
     }
 ],
 "screenshots": [
