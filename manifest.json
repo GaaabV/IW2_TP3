@@ -11,14 +11,20 @@
 "orientation": "any",
 "icons": [
     {
-        "src": "https://gaaabv.github.io/IW2_TP3/img/Boardshop_White_512px.png",
+        "src": "https://gaaabv.github.io/IW2_TP3/img/Boardshop_512px.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "any maskable"
     },
     {
-        "src": "https://gaaabv.github.io/IW2_TP3/img/Boardshop_White_192px.png",
+        "src": "https://gaaabv.github.io/IW2_TP3/img/Boardshop_192px.png",
         "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+    }
+    {
+        "src": "https://gaaabv.github.io/IW2_TP3/img/Boardshop_144px.png",
+        "sizes": "144x144",
         "type": "image/png",
         "purpose": "any maskable"
     }
