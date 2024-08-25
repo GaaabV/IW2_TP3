@@ -1,13 +1,13 @@
 {
 "name": "The_Boardshop",
-"short_name": "Boardshop",
+"short_name": "TBS",
 "start_url": "https://gaaabv.github.io/IW2_TP3/",
 "display": "standalone",
-"description": "The Boardshop is an application to find the perfect board for your needs !",
+"description": "The Boardshop est un application de vente de planches de tout types.",
 "lang": " French",
 "dir": "auto",
-"theme_color": "#000000",
-"background_color": "#000000",
+"theme_color": "#7A763D",
+"background_color": "#FFFFFF",
 "orientation": "any",
 "icons": [
     {
@@ -32,7 +32,7 @@
 "screenshots": [
     {
         "src": "https://gaaabv.github.io/IW2_TP3/img/screenshot.jpg",
-        "sizes": "2880x1800",
+        "sizes": "2880x1620",
         "type": "image/png",
         "description": "A screenshot of the home page"
     }
