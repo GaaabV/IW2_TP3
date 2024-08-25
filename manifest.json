@@ -1,5 +1,5 @@
 {
-"name": "The_Boardshop",
+"name": "Boardshop",
 "short_name": "TBS",
 "start_url": "https://gaaabv.github.io/IW2_TP3/",
 "display": "standalone",
@@ -21,10 +21,16 @@
         "sizes": "192x192",
         "type": "image/png",
         "purpose": "any maskable"
-    }
+    },
     {
         "src": "https://gaaabv.github.io/IW2_TP3/img/Boardshop_144px.png",
         "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "https://gaaabv.github.io/IW2_TP3/img/Boardshop_96px.png",
+        "sizes": "96x96",
         "type": "image/png",
         "purpose": "any maskable"
     }
