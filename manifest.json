@@ -1,6 +1,6 @@
 {
-"display_override": ["window-controls-overlay"], 
-"protocol_handlers": [{"protocol":"mailto","url":"/IW2_TP3/index.html"}], 
+"protocol_handlers": [{"protocol":"mailto","url":"/newEmail?to=%s"}],
+"display_override": ["window-controls-overlay"],
 "name": "The Boardshop",
 "short_name": "TBS",
 "start_url": "/IW2_TP3/index.html",
@@ -16,25 +16,25 @@
         "src": "https://gaaabv.github.io/IW2_TP3/img/Boardshop_512px.png",
         "sizes": "512x512",
         "type": "image/png",
-        "purpose": "maskable"
+        "purpose": "any maskable"
     },
     {
         "src": "https://gaaabv.github.io/IW2_TP3/img/Boardshop_192px.png",
         "sizes": "192x192",
         "type": "image/png",
-        "purpose": "maskable"
+        "purpose": "any maskable"
     },
     {
         "src": "https://gaaabv.github.io/IW2_TP3/img/Boardshop_144px.png",
         "sizes": "144x144",
         "type": "image/png",
-        "purpose": "maskable"
+        "purpose": "any maskable"
     },
     {
         "src": "/IW2_TP3/img/Boardshop_96px.png",
         "sizes": "96x96",
         "type": "image/png",
-        "purpose": "maskable"
+        "purpose": "any maskable"
     }
 ],
 "screenshots": [
@@ -45,8 +45,6 @@
         "form_factor": "wide",
         "description": "A screenshot of the home page"
     }
-],
-"screenshots2": [
     {
         "src": "/IW2_TP3/img/screenshot.jpg",
         "sizes": "2880x1620",
@@ -71,7 +69,7 @@
             "src": "https://gaaabv.github.io/IW2_TP3/img/Boardshop_96px.png",
             "sizes": "96x96",
             "type": "image/png",
-            "purpose": "maskable"
+            "purpose": "any maskable"
           }]
     }
 ]
