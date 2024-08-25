@@ -1,9 +1,9 @@
 {
 "display_override": ["window-controls-overlay"], 
-"protocol_handlers": [{"protocol":"mailto","url":"/index.html"}], 
+"protocol_handlers": [{"protocol":"mailto","url":"/IW2_TP3/index.html"}], 
 "name": "The Boardshop",
 "short_name": "TBS",
-"start_url": "https://gaaabv.github.io/IW2_TP3/index.html",
+"start_url": "/IW2_TP3/index.html",
 "display": "standalone",
 "description": "The Boardshop est un application de vente de planches de tout types.",
 "lang": " French",
@@ -31,7 +31,7 @@
         "purpose": "maskable"
     },
     {
-        "src": "https://gaaabv.github.io/IW2_TP3/img/Boardshop_96px.png",
+        "src": "/IW2_TP3/img/Boardshop_96px.png",
         "sizes": "96x96",
         "type": "image/png",
         "purpose": "maskable"
@@ -39,7 +39,7 @@
 ],
 "screenshots": [
     {
-        "src": "https://gaaabv.github.io/IW2_TP3/img/screenshot.jpg",
+        "src": "/IW2_TP3/img/screenshot.jpg",
         "sizes": "2880x1620",
         "type": "image/png",
         "form_factor": "wide",
@@ -48,7 +48,7 @@
 ],
 "screenshots2": [
     {
-        "src": "https://gaaabv.github.io/IW2_TP3/img/screenshot.jpg",
+        "src": "/IW2_TP3/img/screenshot.jpg",
         "sizes": "2880x1620",
         "type": "image/png",
         "form_factor": "narrow",
@@ -65,7 +65,7 @@
 "shortcuts": [
     {
         "name":"The Boardshop",
-        "url":"https://gaaabv.github.io/IW2_TP3/index.html",
+        "url":"/IW2_TP3/index.html",
         "description":"The Boardshop est un application de vente de planches de tout types.",
         "icons": [{
             "src": "https://gaaabv.github.io/IW2_TP3/img/Boardshop_96px.png",
