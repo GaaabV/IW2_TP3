@@ -44,7 +44,7 @@
         "type": "image/png",
         "form_factor": "wide",
         "description": "A screenshot of the home page"
-    }
+    },
     {
         "src": "/IW2_TP3/img/screenshot.jpg",
         "sizes": "2880x1620",
