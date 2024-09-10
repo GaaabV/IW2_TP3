@@ -3,15 +3,17 @@ body {
 }
 
 .input-control.error input {
+    color: white;
     border-color: rgb(255, 0, 0);
 }
 
 .input-control.success input {
+    color: white;
     border-color: rgb(0, 212, 0);
 }
 
-.input-control .errorMessage {
+.input-control.errorMessage {
     border-color: rgb(255, 0, 0);
-    font-size: 9px;
-    height: 13px;
+    font-size: 7px;
+    height: 10px;
 }
