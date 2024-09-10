@@ -20,6 +20,11 @@ Lien vers mon repository GIT
 
 git https://github.com/GaaabV/IW2_TP3.git
 
+live site https://gaaabv.github.io/IW2_TP3/
+
 The W3C Markup Validation Service : Ok
 
 The W3C CSS Validation Service : OK
+
+
+Gabriel Villeneuve
